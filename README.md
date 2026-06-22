@@ -10,7 +10,7 @@ Supports text conversation, PDF/TXT document upload, image upload, multi-chat se
 | Layer    | Technology              |
 |----------|-------------------------|
 | Backend  | Python · FastAPI · Uvicorn |
-| AI       | Google Gemini 1.5 Flash |
+| AI       | Groq · LLaMA3 8B |
 | Frontend | React 18 · Vite         |
 | State    | In-memory (no database) |
 
@@ -20,8 +20,7 @@ Supports text conversation, PDF/TXT document upload, image upload, multi-chat se
 
 - **Python 3.10+**
 - **Node.js 18+** and npm
-- A **Gemini API key** — get one free at [https://aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey)
-
+- A **A Groq API key — get one free at https://console.groq.com
 ---
 
 ## Installation
@@ -57,7 +56,7 @@ npm install
 
 ---
 
-## Setting the Gemini API Key
+## Setting the API Key (Groq)
 
 ### Backend (required)
 
@@ -187,4 +186,4 @@ gemini-chatbot/
 
 - Chat state is stored **in memory only** — all sessions are lost on server restart.
 - No authentication, database, or external storage is used.
-- The app uses **Gemini 1.5 Flash** (fast and cost-efficient for this use case).
+- The app uses LLaMA3-8B via Groq API (fast and free)
