@@ -1,6 +1,6 @@
 # GeminiChat — Infollion Task 1
 
-A minimal web-based chatbot powered by Google's Gemini API.  
+A minimal web-based chatbot powered by Groq's LLaMA3 API..  
 Supports text conversation, PDF/TXT document upload, image upload, multi-chat sessions, and context reset.
 
 ---
