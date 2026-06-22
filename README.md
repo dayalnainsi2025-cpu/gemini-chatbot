@@ -20,7 +20,7 @@ Supports text conversation, PDF/TXT document upload, image upload, multi-chat se
 
 - **Python 3.10+**
 - **Node.js 18+** and npm
-- A **A Groq API key — get one free at https://console.groq.com
+- A Groq API key — get one free at https://console.groq.com
 ---
 
 ## Installation
@@ -114,21 +114,21 @@ Open `http://localhost:5173` in your browser.
 ### 1. Text conversation
 
 1. Type any message in the input box and press **Enter** or click **↑**.
-2. Gemini responds considering the full conversation history.
+2. The Bot responds considering the full conversation history.
 
 ### 2. Document Q&A (PDF or TXT)
 
 1. Click the **📄** button and select a `.pdf` or `.txt` file.
 2. Wait for the upload confirmation message in the chat.
 3. Ask: *"Summarize the document."*
-4. Follow up: *"What was the third point mentioned?"* — Gemini uses document context + prior messages.
+4. Follow up: *"What was the third point mentioned?"* — Bot uses document context + prior messages.
 
 ### 3. Image Q&A (PNG or JPG)
 
 1. Click the **🖼️** button and select a `.png` or `.jpg` file.
 2. A preview strip appears at the bottom of the chat.
 3. Ask: *"What's in the image?"*
-4. Follow up: *"Is there any text visible?"* — Gemini uses the same image.
+4. Follow up: *"Is there any text visible?"* — Bot uses the same image.
 
 ### 4. Resetting context
 
