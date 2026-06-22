@@ -28,7 +28,7 @@ Supports text conversation, PDF/TXT document upload, image upload, multi-chat se
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/gemini-chatbot.git
+git clone https://github.com/dayalnainsi/gemini-chatbot.git
 cd gemini-chatbot
 ```
 
